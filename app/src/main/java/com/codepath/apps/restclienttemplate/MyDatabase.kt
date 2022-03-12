@@ -10,7 +10,7 @@ abstract class MyDatabase : RoomDatabase() {
     abstract fun sampleModelDao(): SampleModelDao?
 
     companion object {
-        // Database name to be used
+        // Database name TO be used
         const val NAME = "MyDatabase"
     }
 }
